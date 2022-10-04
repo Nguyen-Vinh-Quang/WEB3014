@@ -1,0 +1,15 @@
+{
+    "name": "laptop/oop",
+    "autoload": {
+        "psr-4": {
+            "Laptop\\Oop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nguyen-Vinh-Quang",
+            "email": "nvq.ndcg@gmail.com"
+        }
+    ],
+    "require": {}
+}
