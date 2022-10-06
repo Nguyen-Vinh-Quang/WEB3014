@@ -4,6 +4,8 @@
 // require_once 'App/Models/BaseModel.php';
 // require_once 'App/Models/Product.php';
 
+const BASE_URL = 'http://localhost:8080/web3014/new-mvc/';
+
 require_once './vendor/autoload.php';
 
 use App\Controllers\ProductController;

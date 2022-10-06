@@ -3,10 +3,11 @@
 
 <!-- Truyen gia tri nhung phan thay doi -->
 
-<!-- yield(ten) ~ section(ten, gia tri...) -->
+<!-- yield(ten) ~ section(ten, gia tri...) Đây là thay đổi title-->
 @section('title','Danh sach san pham')
 
-<!-- $section('title',) -->
+<!-- $section('title',) Đây là thay đổi ở phần-->
+@section('content-title', 'ABC')
 @section('content')
 THU VIEN PHP 2 <br>
 <!--<?php echo $name ?>-->

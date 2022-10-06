@@ -3,12 +3,12 @@
 namespace App\Controllers;
 
 use eftec\bladeone\BladeOne;
+use App\Models\Product;
 
 class BaseController
 {
-    //
-
-
+    // Hiển thị danh sách sản phẩm bằng render() của BladeOne
+    // file view ở new-mvc/App/Views/product/index.blade.php
     public function render($viewName, $data)
     {
         // $views = __DIR__ . '/views';

@@ -3,10 +3,11 @@
 
 <!-- Truyen gia tri nhung phan thay doi -->
 
-<!-- yield(ten) ~ section(ten, gia tri...) -->
+<!-- yield(ten) ~ section(ten, gia tri...) Đây là thay đổi title-->
 <?php $this->startSection('title','Danh sach san pham'); ?>
 
-<!-- $section('title',) -->
+<!-- $section('title',) Đây là thay đổi ở phần-->
+<?php $this->startSection('content-title', 'ABC'); ?>
 <?php $this->startSection('content'); ?>
 THU VIEN PHP 2 <br>
 <!--<?php echo $name ?>-->
@@ -28,4 +29,5 @@ THU VIEN PHP 2 <br>
  <?php endforeach; $this->popLoop(); $loop = $this->getFirstLoop(); ?>
 </ul>
 <?php $this->stopSection(); ?>
+
 <?php if (isset($_shouldextend[1])) { echo $this->runChild('layouts.master'); } ?>

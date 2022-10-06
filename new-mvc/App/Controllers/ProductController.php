@@ -6,7 +6,8 @@ use App\Models\Product;
 
 class ProductController extends BaseController {
     public function getProducts(){
-        //Hien thi danh sach san pham bang render() cua Bladeone
+        // Hiển thị danh sách sản phẩm bằng render() của BladeOne
+        // file view ở new-mvc/App/Views/product/index.blade.php
         $viewName = 'product.index';
         $data=[
             'name' => 'Iphone 14',
