@@ -11,5 +11,6 @@
             "email": "nvq.ndcg@gmail.com"
         }
     ],
-    "require": {"eftec/bladeone": "4.6"}
+    "require": {"eftec/bladeone": "4.6",
+        "phroute/phroute": "^2.2"}
 }

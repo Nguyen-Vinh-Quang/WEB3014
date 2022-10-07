@@ -34,10 +34,20 @@
       <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
+        <!-- Dashboard -->
+        <li class="nav-item">
+          <a href="http://localhost:8080/web3014/new-mvc/" class="nav-link">
+            <i class="nav-icon fas fa-tachometer-alt"></i>
+            <p>
+              Dashboard
+              <i class="right fas fa-angle-left"></i>
+            </p>
+          </a>
+        </li>
         <!-- Quản lý danh mục -->
         <li class="nav-item">
           <a href="#" class="nav-link">
-          <i class="nav-icon fas fa-edit"></i>
+            <i class="nav-icon fas fa-edit"></i>
             <p>
               Quản lý danh mục
             </p>
@@ -45,8 +55,8 @@
         </li>
         <!-- Quản lý sản phẩm -->
         <li class="nav-item">
-          <a href="#" class="nav-link">
-          <i class="nav-icon fas fa-edit"></i>
+          <a href="http://localhost:8080/web3014/new-mvc/?url=product" class="nav-link">
+            <i class="nav-icon fas fa-edit"></i>
             <p>
               Quản lý sản phẩm
             </p>
@@ -55,7 +65,7 @@
         <!-- Quản lý đơn hàng -->
         <li class="nav-item">
           <a href="#" class="nav-link">
-          <i class="nav-icon fas fa-edit"></i>
+            <i class="nav-icon fas fa-edit"></i>
             <p>
               Quản lý đơn hàng
             </p>
@@ -64,7 +74,7 @@
         <!-- Quản lý khách hàng -->
         <li class="nav-item">
           <a href="#" class="nav-link">
-          <i class="nav-icon fas fa-edit"></i>
+            <i class="nav-icon fas fa-edit"></i>
             <p>
               Quản lý khách hàng
             </p>
@@ -73,26 +83,26 @@
         <!-- Thống kê -->
         <li class="nav-item">
           <a href="#" class="nav-link">
-          <i class="nav-icon fas fa-edit"></i>
+            <i class="nav-icon fas fa-edit"></i>
             <p>
               Thống kê
               <i class="fas fa-angle-left right"></i>
             </p>
           </a>
           <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="../forms/general.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Top 10 sản phẩm bán chaỵ</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../forms/advanced.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Top 10 khách hàng mua nhiều</p>
-                </a>
-              </li>
-            </ul>
+            <li class="nav-item">
+              <a href="../forms/general.html" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Top 10 sản phẩm bán chaỵ</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="../forms/advanced.html" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Top 10 khách hàng mua nhiều</p>
+              </a>
+            </li>
+          </ul>
         </li>
       </ul>
     </nav>

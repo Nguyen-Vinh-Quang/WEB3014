@@ -1,0 +1,33 @@
+<?php $_shouldextend[1]=1; ?>
+<?php $this->startSection('title','Thêm mới sản phẩm'); ?>
+<?php $this->startSection('content-title', 'Thêm mới sản phẩm'); ?>
+<?php $this->startSection('content'); ?>
+<form>
+ <div class="mb-3">
+ <label for="exampleInputEmail1" class="form-label">ID</label>
+ <input type="text" class="form-control" id="id" aria-describedby="emailHelp">
+ </div>
+ <div class="mb-3">
+ <label for="exampleInputPassword1" class="form-label">Name</label>
+ <input type="text" class="form-control" id="name">
+ </div>
+ <div class="mb-3">
+ <label for="exampleInputPassword1" class="form-label">Price</label>
+ <input type="number" class="form-control" id="name">
+ </div>
+ <div class="mb-3">
+ <label for="exampleInputPassword1" class="form-label">Image</label>
+ <input type="file" class="form-control" id="name">
+ </div>
+ <div class="mb-3">
+ <label for="exampleInputPassword1" class="form-label">Category_id</label>
+ <input type="text" class="form-control" id="name">
+ </div>
+ <div class="mb-3">
+ <label for="exampleInputPassword1" class="form-label">Status</label>
+ <input type="text" class="form-control" id="name">
+ </div>
+ <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<?php $this->stopSection(); ?>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layouts.master'); } ?>

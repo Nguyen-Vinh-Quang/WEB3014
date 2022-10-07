@@ -13,7 +13,9 @@ $router->get('/', function () {
 });
 
 // $router->phuong_thuc('duong dan', [Controller, 'ten ham']);
-$router->get('/ds-san-pham', [ProductController::class, 'getProducts']);
+$router->get('/product', [ProductController::class, 'dsProducts']);
+$router->get('/product/create', [ProductController::class, 'createProducts']);
+$router->get('/chi-tiet-san-pham/{id}',[ProductController::class, 'detailProducts']);
 
 # NB. You can cache the return value from $router->getData() so you don't have to create the routes each request - massive speed gains
 $dispatcher = new Phroute\Phroute\Dispatcher($router->getData());
@@ -25,3 +27,5 @@ $url = isset($_GET['url']) ? ($_GET['url']) : '/';
 $response = $dispatcher->dispatch($_SERVER['REQUEST_METHOD'], $url);
 // Hiển thị kết quả return của hàm được gọi
 echo $response;
+
+//duong dan danh sach san pham http://localhost:8080/web3014/new-mvc/?url=ds-san-pham

@@ -7,6 +7,7 @@
 const BASE_URL = 'http://localhost:8080/web3014/new-mvc/';
 
 require_once './vendor/autoload.php';
+require_once './configs/router.php';
 
 use App\Controllers\ProductController;
 
