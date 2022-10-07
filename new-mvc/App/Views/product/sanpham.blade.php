@@ -1,13 +1,6 @@
-<!-- Ke thua lai layout master-->
 @extends('layouts.master')
-
-<!-- Truyen gia tri nhung phan thay doi -->
-
-<!-- yield(ten) ~ section(ten, gia tri...) Đây là thay đổi title-->
-@section('title','Quản lý danh mục')
-
-<!-- $section('title',) Đây là thay đổi ở phần-->
-@section('content-title', 'Quản lý danh mục')
+@section('title','Quản lý sản phẩm')
+@section('content-title', 'Quản lý sản phẩm')
 @section('content')
 <table class="table table-dark table-striped">
               <thead>
